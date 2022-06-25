@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-public class Hearts_Stacks
+public class Stacks
 {
     //! STACKS
     private readonly Stack<Cards> _stackRepo = new Stack<Cards>();

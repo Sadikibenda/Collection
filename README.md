@@ -29,7 +29,7 @@ The Application will resemble a **deck of cards**. The Repository names, althoug
 | STACK | --> | LIST | Discard Pile |
 | DICTIONARY | --> | STACK | Return to Pack |
 
-**Clubs - LIST**:
+**LIST**:
   - **List** will display a collection of cards obtained by available cards within the **Queue**. Think of this link a "players hand".
   - Methods Built:
   ``` 
@@ -39,7 +39,7 @@ The Application will resemble a **deck of cards**. The Repository names, althoug
   ClearHand() - Clear
   ```
 
-**Diamonds - QUEUE**:
+**QUEUE**:
   - **Queue** will represent a "draw deck" for a **List**.
   - Methods Built:
   ``` 
@@ -48,7 +48,7 @@ The Application will resemble a **deck of cards**. The Repository names, althoug
   ViewNextCard() - Peek
   DiscardCard() - Dequeue
   ```
-**Hearts - STACK**:
+**STACK**:
   - **Stack** will represent a "discard pile" of cards that is obtained from the **List**.
   - Methods Built:
   ``` 
@@ -57,7 +57,7 @@ The Application will resemble a **deck of cards**. The Repository names, althoug
   RemoveCard() - Pop
   ClearStack() - Clear
   ```
-**Spades - DICTIONARY**:
+**DICTIONARY**:
   - **Dictionaries** will provide access to view all cards availble with the "box".
   - Methods Built:
   ``` 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-    public class Diamonds_Queues
+    public class Queues
     {
         //! QUEUES
         private readonly Queue<Cards> _queueRepo = new Queue<Cards>();

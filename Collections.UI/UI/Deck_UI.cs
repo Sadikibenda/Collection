@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 public class Deck_UI
 {
-    private readonly Clubs_Lists _lRepo = new Clubs_Lists(); // list repository (db) creation.
-    private readonly Diamonds_Queues _qRepo = new Diamonds_Queues();// queue repository (db) creation.
-    private readonly Hearts_Stacks _sRepo = new Hearts_Stacks(); // stack repository (db) creation.
-    public readonly Spades_Dictionaries _dRepo = new Spades_Dictionaries(); // dictionary repository (db) creation.
+    private readonly Lists _lRepo = new Lists(); // list repository (db) creation.
+    private readonly Queues _qRepo = new Queues();// queue repository (db) creation.
+    private readonly Stacks _sRepo = new Stacks(); // stack repository (db) creation.
+    public readonly Dictionaries _dRepo = new Dictionaries(); // dictionary repository (db) creation.
 
     public void Run()
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-public class Spades_Dictionaries
+public class Dictionaries
 {
     //! DICTIONARY
     private readonly Dictionary<int, Cards> _dictionaryRepo = new Dictionary<int, Cards>();
